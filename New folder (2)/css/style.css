@@ -1,0 +1,174 @@
+body{
+  margin: 0px auto;
+  background: gray;
+}
+.fullWidth{
+  width: 100%;
+}
+/*Common Classes*/
+.mainWidth{
+  width: 1000px;
+  margin: 0px auto;
+}
+.colorWhite{
+  background: white;
+}
+.colorBlack{
+  background: black;
+}
+.colorGray{
+  background: gray;
+}
+.verticalSpacer{
+  height: 15px;
+}
+.left{
+  float:left;
+}
+.right{
+  float: right;
+}
+/*Main Classes*/
+/*Top Navigation Section*/
+.topNavigationSect{
+  height: 30px;
+
+}
+.innerLeft{
+  color: lightgray;
+  line-height: 30px;
+  font-size: 10px;
+}
+.innerLeft span span{
+  color: orange;
+}
+ .innerRight ul li{
+  list-style-type: none;
+  display: inline-block;
+  color: lightgray;
+  line-height: 30px;
+  border-right: 1px solid gray;
+  padding: 0px 7px 0px 5px;
+  font-size: 10px;
+  }
+   .innerRight ul li i{
+    margin: 0px 5px 0px 0px;
+   }
+  .innerRight ul{
+    margin: 0;
+  }
+  /*Top Navigation end*/
+  /*slider Section*/
+
+    .sliderNavSect{
+      height: 400px;
+      overflow:hidden;
+      border-radius: 30px 30px 0px 0px;
+     }
+     .img1{
+      position:relative;
+     }
+
+    .img1 img{
+     width: 100%;
+
+    }
+    .sliderHead{
+      position:absolute;
+      width: 100%;
+      top:0;
+      left:0;
+      height: 100px;
+      z-index: 2;
+      height: 80px;
+      background: black;
+      color: white;
+    }
+
+     .headLeft{
+      margin: 0;
+      padding: 10px  0px 10px 20px;
+     }
+     .headLeft h1, span{
+      margin: 0;
+     }
+     .headRight ul li{
+      list-style-type: none;
+      display: inline-block;
+      margin-right: -4px;
+      padding: 6px 20px;
+   /* width: 100px;*/
+      border-right: 1px solid gray;
+      background: black;
+      text-align: center;
+      height: 67px;
+      }
+    .headRight ul {
+      margin: 0px;
+
+      }
+
+    .headRight ul li i{
+      color: gray;
+      border: 1px solid black;
+    }
+    .headRight span{
+      color: gray;
+      display: block;
+      margin-top: 10px;
+    }
+      
+
+
+      
+    
+     /*slider Section end*/
+     .buttonSect {
+      text-align: center;
+
+     }
+
+    .newsSect{
+      height: 450px;
+      
+
+    }
+    .newsSect h2{
+      margin: 0;
+    }
+    .newsSect h2 span{
+      color: orange;
+    }
+    .innerNews{
+      display: inline-block;
+      width: 200px;
+      height: 400px;
+      padding: 20px;
+
+
+    }
+    .innerNewsImg{
+      overflow: hidden;
+      width: 200px;
+      height: 200px;
+
+    }
+
+
+
+
+
+
+
+    .feedbackSect{
+      height: 100px;
+    }
+    .blogSect{
+  height: 200px;
+    }
+    .footerSect{
+
+
+    }
+
+
